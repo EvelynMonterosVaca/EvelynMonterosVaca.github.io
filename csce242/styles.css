@@ -4,14 +4,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#head h3{
+#head p{
     text-align: center;
+    margin: 0;
 }
 
 #link{
-    width:50%;
-    margin: auto;
+    margin: 5px;
+    padding: 5px;
 }
+
 
 #link h2{
     text-align: center;
@@ -21,6 +23,8 @@ body{
 .square{
     background-color:#1e1f26;
     color:aliceblue;
+    padding: 10px;
+    margin: 10px;
 }
 
 .square img{
@@ -37,6 +41,8 @@ body{
 
 
 
+
+
 /* Navigation */ 
 
 
@@ -45,8 +51,39 @@ body{
 
 /* Typography */
 
-#head{
-    text-align: center;
+#head h1{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+@media(min-width:900px){
+    .table{
+        display: flex;
+    }
+
+    .square,
+    #fr{
+        flex: 1;
+    }
+    
+    .table img{
+        width:70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+;
+    
+
+    
+
+    
+
+    
 }
 
 
