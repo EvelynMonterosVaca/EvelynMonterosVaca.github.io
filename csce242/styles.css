@@ -9,13 +9,13 @@ body{
     margin: 0;
 }
 
-#link{
+.link{
     margin: 5px;
     padding: 5px;
 }
 
 
-#link h2{
+.link h2{
     text-align: center;
     margin: 5px;
 }
