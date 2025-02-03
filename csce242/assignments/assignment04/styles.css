@@ -1,0 +1,109 @@
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active {
+    outline: none;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav { 
+    padding: 0; list-style: none;
+} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+
+.flexslider .slides > li {
+    display: none;}
+     /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li:first-child { 
+    display:block; 
+}
+.flexslider .slides img {
+     max-width: 100%; display: block; 
+    }
+.flexslider .slides iframe {
+    width:100%;
+}
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+
+
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container, 
+.content-slider {
+	zoom: 1;
+	position: relative;
+	clear: both;
+	width: 100%;
+	z-index: 1;
+	margin-bottom: 5px;
+}
+
+
+/* Caption style */
+
+.flex-caption {
+	background-color: #FFF;
+    border-left: 5px solid #73000a;
+	width:35%; 
+	position:absolute;  
+	color: #000;
+	right: 3%;
+}
+
+
+	/* Second position for Flex caption */
+	.bottom { 
+        bottom:8%; 
+    }
+	.left { 
+		right: auto;
+		left: 3%;
+	}
+
+	.flex-caption h1, .flex-caption p { 
+        padding: 0.15em 5%; 
+    }
+	
+	.flex-caption h1 {
+		font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		font-size: 2.25em;
+	    letter-spacing: .8px;
+		line-height: 1;
+		padding-top:4%;
+	}
+
+
+
+/*.flex-control-nav li a:hover {background-position: 0 -13px;}*/
+
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.flex-caption { 
+		background-color: #ECECEC;
+		padding-bottom: 1em;
+	}
+}
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	.flex-caption  {
+		width: 40%;
+		font-size: .875em;
+	}
+}
+
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
+  .flex-direction-nav .flex-next {opacity: 1; right: 0;}
+}
+

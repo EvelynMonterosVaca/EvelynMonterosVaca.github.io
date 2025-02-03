@@ -1,0 +1,55 @@
+/* Structure */
+
+header h1{
+    text-align: center;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: blanchedalmond;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+
+
+/* Navigation */ 
+#list ul{
+    padding-left: 0px;
+}
+
+#cal li{
+    list-style-type: none;
+    background-color: blue;
+    padding: 5px;
+    border: 1px solid aquamarine;
+}
+
+#nav a{
+    text-decoration: none;
+    padding:5px;
+    color: rgb(233, 244, 253);
+}
+
+
+
+
+
+/* Typography */
+
+
+/* Larger Resolutions */
+@media(min-width:900px){
+    
+
+
+}
