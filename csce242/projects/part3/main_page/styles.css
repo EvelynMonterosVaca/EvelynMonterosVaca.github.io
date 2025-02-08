@@ -1,0 +1,66 @@
+/* Structure */
+body{
+    background-color: #377F7F;
+}
+
+main{
+    padding: 5px;
+}
+
+#mncon,
+#mnwtt{
+    background-color: #000000;
+    margin: 20px;
+}
+
+footer{
+    background-color: #000000;
+   
+}
+
+
+/* Navigation */
+#nav li{
+    list-style-type: none;
+}
+
+#nav a{
+    text-decoration: none;
+    color:#000000;
+}
+
+
+/* Typograghy */
+#mncon h2,
+#mncon h3,
+#mnwtt h2,
+footer h2{
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+}
+
+h1,
+h2{
+    font-family: 'Cherry Swash';
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* When to Travel Month List */
+
+.column {
+    float: left;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
