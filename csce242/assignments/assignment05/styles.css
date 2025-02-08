@@ -1,0 +1,89 @@
+/* Structure */
+h1,
+h2,
+h3,
+h4{
+    text-align: center;
+}
+
+body{
+    background-color: #9ED8DB;
+}
+
+section{
+    background-color: #E9FFF9;
+    margin: 0;
+    padding: 10px;
+    border:2px solid #1D3354;
+}
+
+
+
+/* pick a color section */
+#star{
+    width: 20%;
+    display: block; 
+    margin: auto;
+    padding: 10px;
+}
+
+#colorPicker{
+    display: block; 
+    margin: auto;
+
+}
+
+/* Image Change */
+#change img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Typography */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h3,
+h4,
+p{
+    color: #D64045;
+}
+
+h2{
+    color:#1D3354;
+}
+
+
+
+
+
+
+
+
+@media(min-width:900px){
+    #everything{
+        display: flex;
+    }
+
+    .section{
+        flex:1;
+        padding: 20px;
+        margin: 20px;
+    }
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+}
