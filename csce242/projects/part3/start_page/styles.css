@@ -1,0 +1,106 @@
+/*Structure*/
+body{
+    background-color: #377F7F;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#seven{
+    background-color: #000000;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+/* Typography */
+h1,
+h2{
+    color: aliceblue;
+    font-family: 'Cherry Swash';
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
+}
+
+/* button */
+
+#but{
+    border-radius: 50%;
+    color: aliceblue;
+    background-color:#144343;
+    padding: 50px 70px;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+    
+    text-decoration: none;
+    
+    display: block;
+    margin: auto;
+}
+
+
+
+/* checklist */
+.container{
+    color: aliceblue;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+#num{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+/* footer */
+footer{
+    background-color: #000000;
+}
+
+ footer svg{
+    width: 20px;
+    display: block; 
+    margin: 10px;
+    padding: 10px;
+    fill: aliceblue; 
+  }
+
+.container{
+    display: flex;
+}
+
+footer h2{
+    padding: 20px;
+}
+
+
+/* flex */
+@media(min-width:900px){
+    .click{
+        display: flex;
+    }
+
+    .one{
+        text-align: center;
+        margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    }
+
+
+
+   
+}
+
+
