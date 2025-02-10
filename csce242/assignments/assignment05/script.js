@@ -11,6 +11,21 @@
 
 
 
+ const colorPicker = document.getElementById('colorPicker');
+ const star = document.getElementById('star2');
+
+ colorPicker.addEventListener('input', function(event) {
+   const selectedColor = event.target.value;
+   star.setAttribute('fill', selectedColor);
+ });
+ 
+
+
+
+
+
+
+
 
 
 
