@@ -1,0 +1,95 @@
+body{
+    background-color: #F7F7FF;
+}
+main{
+    background-color:#372248;
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+
+/*Typography*/
+h1{
+    color: #414770;
+    text-align: center;
+}
+
+h2{
+   color:#5B85AA;
+   text-align: center; 
+}
+
+h3,
+p{
+    color:#F7F7FF;
+}
+
+
+
+/*Navigation*/
+#main-nav ul{
+    padding-left: 0px;
+    list-style: none;
+}
+#main-nav li{
+    padding: 10px;
+    margin: 2px 0;
+}
+
+#main-nav a{
+    text-decoration: none;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Travelling */
+#travel{
+    text-align: center;
+}
+
+/* Color My Heart */
+#heart svg{
+    fill:white;
+    height: 150px;
+}
+
+#color{
+    text-align: center;
+}
+
+
+
+@media (min-width: 900px){
+    #main-nav-items{
+        display: flex;
+    }
+
+    #main-nav-items li{
+        flex: 1;
+    }
+
+    #nav-toggle{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
