@@ -1,0 +1,199 @@
+ /* Structure */
+ body{
+    background-color: #377F7F;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header Image */
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/* Cities Main */
+#mncit{
+    background-color: #000000;
+    padding: 20px;
+}
+
+.columns {
+    float: left;
+    padding: 5px;
+  }
+  .rows::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #ro1{
+    width: fit-content;
+    margin: auto;
+  }
+
+
+/* Best to Go Image  and Table */
+#small{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+table{
+    border: 1px solid aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Typography */
+h1,
+h2,
+p,
+tr{
+    color:aliceblue;
+}
+
+h1{
+    margin: 30px;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+h1,
+h2{
+    font-family: 'Cherry Swash';
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Button */
+#bot{
+    border-radius: 50%;
+    color: aliceblue;
+    background-color:#144343;
+    padding: 50px 70px;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+    
+    text-decoration: none;
+    
+    display: block;
+    margin: auto;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ 
+ /* footer */
+ footer{
+    background-color: #000000;
+}
+
+ footer svg{
+    width: 20px;
+    display: block; 
+    margin: 10px;
+    padding: 10px;
+    fill: aliceblue; 
+  }
+
+.container{
+    display: flex;
+}
+
+footer h2{
+    padding: 20px;
+}
+
+
+
+
+/* city Imgae */
+#mncit img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em;
+}
+h4{
+    color: aliceblue;
+    text-align: center;
+}
+
+/* Best to Go Img */
+#best img{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* flex */
+@media(min-width:900px){
+    .rows{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        flex: 1;
+    }
+
+    #wtg{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
+    table{
+        border: 1px solid aliceblue;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #small{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        width: 50%;
+    }
+
+    #best{
+        padding: 20px;
+    }
+
+    #best img{
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30em;
+    }
+
+    
+
+
+
+
+  }
