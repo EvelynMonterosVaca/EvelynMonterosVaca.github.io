@@ -11,9 +11,8 @@ window.onload = () => {
 const icon = document.getElementById("figure");
 const buttons = document.querySelectorAll('button');
 
-buttons.forEach(button => {
-    button.addEventListener('click', () => {
-      const color = button.getAttribute('data-color');
-      icon.querySelector('path').setAttribute('fill', color);
-    });
-  });
+function changeColor(color){
+    const heart = document.getElementById('hrt');
+    const paths = heart.querySelectorAll('path');
+    paths.forEach(path => path.setAttribute('fill', color));
+}
