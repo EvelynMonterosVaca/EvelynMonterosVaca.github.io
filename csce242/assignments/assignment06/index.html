@@ -12,30 +12,32 @@
 
             <nav id="main-nav">
                 <div id="nav-toggle">
-                    <div  onclick="toggleMenu()"><spam id="arrow down">&#9662;</spam></div>
+                    <div><spam id="arrow down">&#9662;</spam></div>
                 </div>
 
-                <ul id="main-nav-items" class="'hidden">
-                    <li><a href="#travel">Exercise 1</a></li>
-                    <li><a href="#color">Exercise 2</a></li>
+                <ul id="main-nav-items" class="hidden">
+                    <li><a href="javascript:ReverseDisplay('travTexImg')">Exercise 1</a></li>
+                    <li><a href="javascript:ReverseDisplay('colMyHeart')">Exercise 2</a></li>
                 </ul>
 
             </nav>
 
+
         </header>
 
-        <main>
+        <main class="toggle" id="travTexImg">
             <div id="travel">
                 <h3>Travelling</h3>
                 <p>Entet your mode of Transportation</p>
-                <input type="text">
-                <div>
-                    <img>
+                <input type="text" id="transportInput">
+                <button onclick="showImage()">Enter</button>
+                <div id="square"> 
+                    <div id="imageContainer"></div>
                 </div>
             </div>
         </main>
 
-        <main>
+        <main id="colMyHeart" class="toggle">
             <div id="color">
                 <h3>Color My Heart</h3>
                 <button onclick="changeColor('red')">Red</button>

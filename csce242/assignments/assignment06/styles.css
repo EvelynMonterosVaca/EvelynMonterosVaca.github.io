@@ -29,6 +29,9 @@ p{
 
 
 /*Navigation*/
+#main-nav{
+    text-align: center;
+}
 #main-nav ul{
     padding-left: 0px;
     list-style: none;
@@ -38,17 +41,65 @@ p{
     margin: 2px 0;
 }
 
+
 #main-nav a{
     text-decoration: none;
+    color: #414770;
 }
 
 .hidden{
     display: none;
 }
 
+.dropdown{
+    width: 100px;
+    height:30px;
+    background-color:#5B85AA;
+    border-radius:30px;
+    text-align: center;
+}
+
+.dropdown svg{
+    fill: #372248;
+    width: 20px;
+}
+
+#nav-toggle.active{
+    transform: rotate(180deg);
+}
+
+
+/*hide main*/
+.toggle{
+    display: none;
+}
+.toggle.active{
+    display: block;
+}
+
+
+
 /* Travelling */
 #travel{
     text-align: center;
+}
+#square{
+    background-color: #5B85AA;
+    margin: auto;
+    margin-top: 10px;
+    width: 70%;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+#imageContainer{
+    padding: 10px;
 }
 
 /* Color My Heart */
@@ -66,10 +117,12 @@ p{
 @media (min-width: 900px){
     #main-nav-items{
         display: flex;
+        justify-content: center;
     }
 
-    #main-nav-items li{
-        flex: 1;
+    li + li::before {
+        content: " | ";
+        padding: 100px;
     }
 
     #nav-toggle{
