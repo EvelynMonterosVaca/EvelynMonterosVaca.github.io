@@ -1,0 +1,96 @@
+/*structre*/
+body{
+    background-color:#F7FFF7;
+    text-align: center;
+}
+h1{
+    color: #4ECDC4;
+    text-align: center;
+}
+h2{
+    color:#292F36;
+}
+
+.hidden{
+    display: none;
+}
+
+#climb{
+  background-color: #4ECDC4;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+
+
+
+/*stairs*/
+#stairs {
+    width: 100px;
+    position: relative;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+#button{
+    margin: 5px;
+}
+
+#stairs {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.up {
+  transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+.man {
+  position: absolute;
+  bottom: 0;
+  left: 30px; 
+  width: 80px;
+  animation: climb 10s linear infinite, moveLeftRight 1s alternate infinite; 
+}
+
+@keyframes climb {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%; 
+  }
+}
+
+@keyframes moveLeftRight {
+  0%, 100% {
+    transform: scaleX(-1); /* Flip to left */
+  }
+  50% {
+    transform: scaleX(1); /* Flip to right */
+  }
+}
+
+
+
+
+
+
+
