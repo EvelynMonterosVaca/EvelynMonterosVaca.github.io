@@ -116,3 +116,40 @@ document.getElementById("btn-add-donation").onclick = () => {
     //update thermometer
     document.getElementById("thermometer").style.setProperty("--donation-percent", donationPercent + "%");
 };
+
+
+
+document.getElementById("slideshow").onclick = () => {
+    let slideIndex = 1;
+
+}
+
+
+
+
+//slideshiw
+setInterval(()=>{
+    const currentSlide = document.querySelector("slideshow :not(.hidden)");
+    let nextSlide = currentSlide.nextElementSibling;
+    
+    
+    if(nextSlide == null){
+        nextSlide = document.querySelector("#slideshow :firstchild");
+    }
+
+
+    currentSlide.classList.add("hidden");
+    nextSlide.classList.remove("hidden");
+},1000);
+
+
+
+
+//title model
+document.querySelectorAll(".gallery section").forEach((tile)=>{
+    tile.onclick = () =>{
+        const label = tile.querySelector("h4").innerHTML;
+        const imgSRC = tile/querySelector("img").scr;
+        console.log(label);
+    }
+});
