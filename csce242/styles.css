@@ -56,6 +56,9 @@ img{
     color:#7aa3dc;
     text-decoration:underline;
 }
+.node a:active{
+    color:aliceblue;
+}
 
 
 
