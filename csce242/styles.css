@@ -43,11 +43,19 @@ img{
     width: 70%;
 }
 
+.node{
+    text-align: center;
+}
 
 
-
-/* Navigation */ 
-
+.node a:link{
+    color: #d0e1f9;
+    text-decoration: none;
+}
+.node a:hover{
+    color:#7aa3dc;
+    text-decoration:underline;
+}
 
 
 

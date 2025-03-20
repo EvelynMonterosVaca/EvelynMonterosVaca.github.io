@@ -1,0 +1,226 @@
+/* Structure */
+body{
+    background-color: #377F7F;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    padding: 5px;
+}
+
+#mncon,
+#mnwtt{
+    background-color: #000000;
+    margin: 20px;
+}
+
+footer{
+    background-color: #000000;
+   
+}
+
+/* header image and text */
+header{
+    background-image: url("images/plane.jpg");
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 20em;
+}
+
+#top h1{
+    position: relative;
+    top: 7em; 
+    left: 40px;
+
+}
+
+
+
+/* Navigation */
+nav li{
+    list-style-type: none;
+    padding: 10px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#000000;
+}
+
+/* Hamburger Menu */
+#toggle div{
+    width: 30px;
+    height: 4px;
+    background-color: #000000;
+    margin: 5px 10px;
+}
+
+
+
+
+.hidden{
+  display: none;
+}
+
+.display{
+  display: block;
+}
+
+
+/* Typograghy */
+#mncon h2,
+#mncon h3,
+#mnwtt h2,
+footer h2{
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+}
+
+h1,
+h2{
+    font-family: 'Cherry Swash';
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  padding: 10px;
+  margin: 5px;
+}
+
+/* When to Travel Month List */
+
+.column {
+    float: left;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #ro1{
+    width:fit-content;
+    margin: auto;
+  }
+
+  /* countries list */
+  .columns{
+    float: left;
+    padding: 30px;
+  }
+
+  .rows::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #ro2{
+    width: fit-content;
+    margin: auto;
+  }
+
+  .columns h3{
+    text-align: center;
+  }
+
+  /* footer */
+  footer svg{
+    width: 20px;
+    display: block; 
+    margin: 10px;
+    padding: 10px;
+    fill: aliceblue; 
+  }
+
+.container{
+    display: flex;
+}
+
+footer h2{
+    padding: 20px;
+}
+
+  
+  footer p{
+    color: aliceblue;
+  }
+
+
+
+
+
+/* Images*/
+#mncon img{
+    width: 10em;
+}
+
+/* Month Colum */
+#mnwtt .column{
+    background-color: #377F7F;
+    width: 100px;
+    height: 12em;
+    margin: 10px;    
+    padding: 10px;
+}
+/* month List */
+#ro1 h3{
+    text-align: center;
+}
+ul{
+    padding: 0px;
+    list-style:none;
+    text-align: center;
+}
+
+
+
+  /* flex */
+  @media(min-width:900px){
+    nav ul,
+    .rows,
+    .row{
+        display: flex;
+    }
+
+    nav ul{
+        justify-content: center;
+        flex: 1;
+    }
+
+    .rows,
+    .row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    header{
+        background-image: url("images/plane.jpg");
+        background-size: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 30em;
+    }
+
+    #toggle{
+      display: none;
+    }
+
+
+
+  }
+
+
+
