@@ -48,7 +48,17 @@ img{
 }
 
 
-
+.node a:link{
+    color: #d0e1f9;
+    text-decoration: none;
+}
+.node a:hover{
+    color:#7aa3dc;
+    text-decoration:underline;
+}
+.node a:active{
+    color:aliceblue;
+}
 
 
 
